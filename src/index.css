@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  background: #000000;
+}
+
+@layer utilities {
+  .display {
+    @apply font-medium text-[180px] tracking-[-1%];
+  }
+
+  .h1 {
+    @apply font-medium text-[56px] tracking-[0%];
+  }
+
+  .h2 {
+    @apply font-medium text-[50px] tracking-[-1%];
+  }
+
+  .h3 {
+    @apply font-medium text-[40px] tracking-[-1%];
+  }
+
+  .h4 {
+    @apply font-medium text-[20px] tracking-[-1%];
+  }
+
+  .p_reg {
+    @apply font-normal text-[18px] tracking-[0%] text-[#8D8D8D];
+  }
+
+  .p_md {
+    @apply font-medium text-[18px] tracking-[0%];
+  }
+
+  .p_semibold {
+    @apply font-semibold text-[18px] tracking-[0%];
+  }
+
+  .body_reg {
+    @apply font-normal text-[16px] tracking-[0%];
+  }
+
+  .body_md {
+    @apply font-medium text-[16px] tracking-[0%];
+  }
+
+  .green_bg {
+    @apply bg-[#8fff00];
+  }
+
+  .green_text {
+    @apply text-[#8fff00];
+  }
+
+  .yellow_bg {
+    @apply bg-[#fff500];
+  }
+
+  .yellow_text {
+    @apply text-[#fff500];
+  }
+
+  .gray_text {
+    @apply text-[#8D8D8D];
+  }
+
+  .gray_box {
+    @apply bg-[#1E1E1E];
+  }
+
+  .button {
+    @apply flex w-auto py-[8px] px-[16px] justify-center items-center gap-[8px] rounded-[6px] bg-[#6818CE];
+  }
+
+  .trans_btn {
+    @apply flex flex-row w-auto py-[24px] px-[16px] justify-center items-center gap-[8px] border-2;
+  }
+
+  .front_green_banner {
+    @apply flex w-full py-[24px] items-center gap-[16px] origin-center rotate-6 bg-[#8fff00] shadow-md shadow-black;
+  }
+
+  .back_green_banner {
+    @apply flex w-full py-[24px] items-center gap-[16px] origin-center rotate-[-6deg] bg-[#223D00] shadow-md shadow-black;
+  }
+
+  .home_bg {
+    background: url("./assets/background.png") no-repeat center center / cover;
+  }
+
+  .spaces {
+    @apply mx-[80px] my-[42px];
+  }
+}
