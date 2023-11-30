@@ -11,7 +11,7 @@
 
 @layer utilities {
   .display {
-    @apply font-medium text-[180px] tracking-[-1%];
+    @apply font-medium text-[180px] tracking-[-1%] max-lg:text-[100px] max-md:text-[80px] max-sm:text-[50px];
   }
 
   .h1 {
