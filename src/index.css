@@ -79,7 +79,7 @@
   }
 
   .trans_btn {
-    @apply flex flex-row w-auto py-[24px] px-[16px] justify-center items-center gap-[8px] border-2;
+    @apply flex flex-row py-[24px] px-[16px] justify-center items-center gap-[8px] border-2;
   }
 
   .front_green_banner {
@@ -94,7 +94,11 @@
     background: url("./assets/background.png") no-repeat center center / cover;
   }
 
-  .spaces {
-    @apply mx-[80px] my-[42px];
+  .cube {
+    width: 80px;
+    height: 80px;
+    background: url(./assets/cube.svg);
+    background-repeat: no-repeat;
+    background-size: 80px 80px;
   }
 }

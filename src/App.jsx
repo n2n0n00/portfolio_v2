@@ -5,12 +5,10 @@ function App() {
   return (
     <div>
       <Home />
-      <div className="spaces">
-        <About />
-        <Services />
-        <Projects />
-        <Footer />
-      </div>
+      <About />
+      <Services />
+      <Projects />
+      <Footer />
     </div>
   );
 }
