@@ -14,6 +14,10 @@
     @apply font-medium text-[180px] tracking-[-1%] max-lg:text-[100px] max-md:text-[80px] max-sm:text-[50px];
   }
 
+  .banner {
+    @apply text-[50px] font-semibold;
+  }
+
   .h1 {
     @apply font-medium text-[56px] tracking-[0%];
   }
@@ -83,11 +87,11 @@
   }
 
   .front_green_banner {
-    @apply flex w-full py-[24px] items-center gap-[16px] origin-center rotate-6 bg-[#8fff00] shadow-md shadow-black;
+    @apply flex w-full py-[24px] items-center gap-[16px] bg-[#8fff00] shadow-md shadow-black transform rotate-[6deg];
   }
 
   .back_green_banner {
-    @apply flex w-full py-[24px] items-center gap-[16px] origin-center rotate-[-6deg] bg-[#223D00] shadow-md shadow-black;
+    @apply flex w-full py-[24px] items-center gap-[16px] bg-[#223D00] shadow-md shadow-black transform rotate-[-6deg];
   }
 
   .home_bg {

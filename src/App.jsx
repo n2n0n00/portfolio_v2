@@ -1,3 +1,4 @@
+import Banner from "./components/Banner";
 import "./index.css";
 import { About, Projects, Services, Home, Footer } from "./pages/index";
 
@@ -6,6 +7,7 @@ function App() {
     <div>
       <Home />
       <About />
+      <Banner />
       <Services />
       <Projects />
       <Footer />
