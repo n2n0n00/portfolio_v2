@@ -4,7 +4,7 @@ import { About, Projects, Services, Home, Footer } from "./pages/index";
 
 function App() {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <Home />
       <About />
       <Banner />

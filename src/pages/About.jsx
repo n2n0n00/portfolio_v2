@@ -1,18 +1,17 @@
-import React from "react";
 import { arrow, cube } from "../assets";
 
 const About = () => {
   return (
     <>
-      <div className="m-[80px] max-md:mx-[10px]">
+      <div className="m-[80px] max-md:mx-0">
         <div className="flex flex-col">
-          <div className="flex flex-row justify-between max-md:flex-col-reverse max-md:items-center max-md:justify-center max-md:gap-10 max-md:m-10">
+          <div className="flex flex-row justify-between max-md:flex-col-reverse max-md:items-center max-md:justify-center max-md:gap-10 max-md:m-10 max-sm:m-2">
             <div className="text-white w-[50%] max-md:w-[100%] max-md:text-center max-md:flex max-md:flex-col max-md:items-center max-md:gap-10">
               <div>
                 <p className="h4 yellow_text">About Me</p>
               </div>
-              <div>
-                <p className="h2">
+              <div className="w-full">
+                <p className="h2 max-sm:text-[45px]">
                   I can deliver results that exceed your expectations.
                 </p>
               </div>
