@@ -38,6 +38,9 @@
   .p_reg {
     @apply font-normal text-[18px] tracking-[0%] text-[#8D8D8D];
   }
+  .p_reg_white {
+    @apply font-normal text-[18px] tracking-[0%] text-white;
+  }
 
   .p_md {
     @apply font-medium text-[18px] tracking-[0%];
@@ -89,6 +92,10 @@
 
   .front_green_banner {
     @apply flex w-full py-[24px] items-center gap-[16px] bg-[#8fff00] shadow-md shadow-black transform rotate-[6deg] max-sm:gap-[10px];
+  }
+
+  .projects_green_banner {
+    @apply flex w-full py-[1px] items-center gap-[16px] bg-[#8fff00] shadow-md shadow-black max-sm:gap-[10px];
   }
 
   .back_green_banner {
