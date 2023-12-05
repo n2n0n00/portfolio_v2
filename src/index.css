@@ -82,8 +82,8 @@
     @apply text-[#8D8D8D];
   }
 
-  .gray_box {
-    @apply bg-[#1E1E1E];
+  .gray_line {
+    @apply bg-[#414040];
   }
 
   .button {
