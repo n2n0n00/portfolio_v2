@@ -34,7 +34,7 @@ const Services = () => {
             </p>
           </div>
 
-          <div className="flex flex-row w-full justify-center h-[120px] max-sm:flex-col max-sm:my-[50%] max-sm:items-center">
+          <div className="flex flex-row w-full justify-center h-[120px] max-sm:flex-col max-sm:my-[50%] max-sm:items-center max-sm:gap-2">
             <div className="trans_btn w-1/5 max-sm:w-3/5">
               <p className="text-white p_semibold">UI/UX Design</p>
             </div>
@@ -66,7 +66,7 @@ const Services = () => {
             designing not for ourselves but for real people with real problems.{" "}
           </p>
 
-          <div className="flex flex-row w-full justify-center h-[120px]  max-sm:flex-col max-sm:my-[50%] max-sm:items-center">
+          <div className="flex flex-row w-full justify-center h-[120px]  max-sm:flex-col max-sm:my-[50%] max-sm:items-center max-sm:gap-2">
             <div className="trans_btn w-1/5 max-sm:w-3/5">
               <p className="text-white p_semibold">UI/UX Design</p>
             </div>
